@@ -1,0 +1,98 @@
+.AddContact {
+    margin-bottom: 20px;
+}
+
+.CardBody {
+    display: flex;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 200px 10px 80px;
+    margin-bottom: 20px;
+}
+
+.CardImage {
+    align-self: center;
+    margin-right: 50px;
+}
+
+.CardImage img {
+    border-radius: 50%;
+    width: 11em;
+    height: 11em;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+.CardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+    gap: 0.2em;
+}
+
+.CardContent h2 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.CardContent p {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #777;
+    margin-bottom: 0.5em;
+}
+
+.CardContent .fa-solid {
+    font-size: 1.2em;
+    width: 1em;
+}
+
+.CardButtons {
+    display: flex;
+    position: absolute;
+    right: 55px;
+    gap: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.editContact {
+    color: black;
+}
+
+.deleteContact {
+    border: none;
+    background: none;
+}
+
+.ContactHeader {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+label {
+    text-align: start;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 0.5em;
+    margin-bottom: 10px;
+}
+
+.return {
+    float: left;
+}
